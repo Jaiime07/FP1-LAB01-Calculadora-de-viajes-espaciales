@@ -86,7 +86,7 @@ tiempo_dias = tiempo_horas / 24
 por esta otra:
 
 ```python
-tiempo_dias = tiempo_horas // 24
+tiempo_dias = tiempo_horas // 24  #aquí el valor de tiempo_dias pasa a ser int, timepo_horas dará un número entero expresado como float
 ```
 
 ¿Qué ha ocurrido? Prueba también a cambiar esta línea:
@@ -98,7 +98,7 @@ tiempo_horas = distancia_km / velocidad_kmh
 por esta otra:
 
 ```python
-tiempo_horas = distancia_km // velocidad_kmh
+tiempo_horas = distancia_km // velocidad_kmh #aqui el valor tiempo_horas pasa a ser int, se eliminan los decimales
 ```
 
 ¿Sabrías explicar por qué a veces se muestran números decimales y otras veces no?
